@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "django-rest-api"
+version = "0.1.0"
+description = ""
+authors = ["MkDierz <msyibbran24@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^4.0.5"
+djangorestframework = "^3.13.1"
+coreapi = "^2.3.3"
+Pygments = "^2.12.0"
+Markdown = "^3.3.7"
+drf-yasg = "^1.20.0"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^4.0.1"
+black = {version = "^22.3.0", allow-prereleases = true}
+autopep8 = "^1.6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
